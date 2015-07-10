@@ -1,3 +1,5 @@
+# 修复MobileExpressPurchaseRequest.php 重复sign&sign_type字段
+
 # Omnipay: Alipay
 
 **Alipay driver for the Omnipay PHP payment processing library**
