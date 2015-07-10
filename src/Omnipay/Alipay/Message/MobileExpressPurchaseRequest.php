@@ -48,8 +48,8 @@ class MobileExpressPurchaseRequest extends BaseAbstractRequest
             'it_b_pay'       => $this->getItBPay()
         );
         $data                   = array_filter($data);
-        $data['sign']           = $this->getParamsSignature($data);
-        $data['sign_type']      = $this->getSignType();
+        //$data['sign']           = $this->getParamsSignature($data);
+        //$data['sign_type']      = $this->getSignType();
         $orderInfoStr           = http_build_query($data);
         $orderInfoStr           = str_replace('&', '"&', $orderInfoStr);
         $orderInfoStr           = str_replace('=', '="', $orderInfoStr) . '"';
