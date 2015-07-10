@@ -1,5 +1,5 @@
 {
-  "name": "zhimeiRaomc/omnipay-alipay",
+  "name": "zhimei-raomc/omnipay-alipay",
   "type": "library",
   "description": "Alipay gateway for Omnipay payment processing library",
   "keywords": [
@@ -11,7 +11,7 @@
     "payment",
     "purchase"
   ],
-  "homepage": "https://github.com/zhimeiRaomc/omnipay-alipay",
+  "homepage": "https://github.com/zhimei-raomc/omnipay-alipay",
   "license": "MIT",
   "authors": [
     {
